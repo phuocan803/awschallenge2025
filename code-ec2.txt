@@ -11,5 +11,8 @@ dnf install -y mariadb105-server
 cd /var/www/html
 
 #downloadfile
+dnf install -y git
+git clone https://github.com/phuocan803/awschallenge2025.git /tmp/awschallenge
+cp -r /tmp/awschallenge/websever-ec2/* /var/www/html/
 
 chown -R apache:root /var/www/html/rds.conf.php

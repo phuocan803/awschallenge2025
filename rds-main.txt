@@ -1,6 +1,0 @@
-endpoint: 
-DB instance identifier: main
-Master username:main
-Database: lab
-Master password: lab-password
-Initial database name: lab

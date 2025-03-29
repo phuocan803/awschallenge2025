@@ -18,11 +18,11 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
       <?php include('menu.php'); ?>
       <div class="jumbotron">
       <p>
-      
-      <h2>Welcome to our webside UiTiOt</h2>
+      <?php include("get-index-meta-data.php"); ?>
+
       <hr />
 
-    
+      <?php include('get-cpu-load.php'); ?>
 			</p>
       <p>
       </p>

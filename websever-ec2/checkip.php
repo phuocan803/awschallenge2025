@@ -17,10 +17,8 @@
       <?php include('get-index-meta-data.php'); ?>
 
       <hr />
-      <?php include('get-cpu-load.php'); ?>
-      
-      <hr />
-      <?php include('get-checkip-meta.php'); ?>
+
+      <?php include('html-checkip.php'); ?>
     
     <p>
     </p>

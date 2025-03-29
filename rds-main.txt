@@ -1,5 +1,14 @@
-endpoint: 
-DB instance identifier:			 main
-Master username:			main
-Database:				 lab
-Master password: 			lab-password
+endpoint:
+lab-db.ckhh8zhaxz31.us-east-1.rds.amazonaws.com
+
+DB instance identifier:
+main
+
+Master username:
+main
+
+Database:			
+lab
+
+Master password:
+lab-password

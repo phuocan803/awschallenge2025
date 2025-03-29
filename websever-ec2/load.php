@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>AWS Challenge 2025</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-  </head>
 
-  <body>
-    <div class="container">
+<head>
+  <title>AWS Challenge 2025</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
 
-      <div class="row">
-    		<div class="col-md-12">
-      <?php include('menu.php'); ?>
-      <div class="jumbotron">
+<body>
+  <div class="container">
 
-      <?php include('put-cpu-load.php'); ?>
+    <div class="row">
+      <div class="col-md-12">
+        <?php include('menu.php'); ?>
+        <div class="jumbotron">
 
-      <hr />
+          <?php include('put-cpu-load.php'); ?>
 
-      <?php include('get-cpu-load.php'); ?>
+          <hr />
 
-    </p>
-    <p>
-    </p>
+          <?php include('get-cpu-load.php'); ?>
+
+          </p>
+          <p>
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-</div>
-</div>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/scripts.js"></script>
-  </body>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
 </html>

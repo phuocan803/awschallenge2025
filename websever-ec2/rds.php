@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>AWS Challenge 2025</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-  </head>
 
-  <body>
-    <div class="container">
+<head>
+  <title>AWS Challenge 2025</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
 
-	<div class="row">
-		<div class="col-md-12">
-      <?php include('menu.php'); ?>
+<body>
+  <div class="container">
 
-			<div class="jumbotron">
+    <div class="row">
+      <div class="col-md-12">
+        <?php include('menu.php'); ?>
 
-      <?php
-        include 'rds.conf.php';
+        <div class="jumbotron">
 
-        if ($RDS_URL == "") {
-          include 'rds-config.php';
-        }
-        else {
-          include 'rds-read-data.php';
-        }
+          <?php
+          include 'rds.conf.php';
 
-      ?>
+          if ($RDS_URL == "") {
+            include 'rds-config.php';
+          } else {
+            include 'rds-read-data.php';
+          }
+
+          ?>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-</div>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/scripts.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
 
 </body>
+
 </html>

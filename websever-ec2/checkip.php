@@ -14,6 +14,8 @@
         <?php include('menu.php'); ?>
         <div class="jumbotron">
           <?php include('get-checkip-meta.php'); ?>
+          <h2>Check IP success!</h2>
+          <hr />
           <?php include('html-checkip.php'); ?>
           <p>
           </p>

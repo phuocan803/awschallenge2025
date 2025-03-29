@@ -19,7 +19,7 @@ header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past
         <div class="jumbotron">
           <p>
             <?php include("get-index-meta-data.php"); ?>
-            <hr />
+            <hr/>
             <?php include('get-cpu-load.php'); ?>
           </p>
           <p>

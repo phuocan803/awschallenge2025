@@ -14,8 +14,6 @@
 
 <body>
     <div class="container">
-        <h2>Check IP success!</h2>
-        <hr/>
         <h5>Instance is running with the following IPs:</h5>
         <div class="ip-box">
             <h4>Private IP:

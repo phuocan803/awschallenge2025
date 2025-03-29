@@ -15,9 +15,6 @@
       <div class="jumbotron">
 
       <?php include('get-checkip-meta.php'); ?>
-
-      <hr />
-
       <?php include('html-checkip.php'); ?>
     
     <p>

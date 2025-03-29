@@ -1,4 +1,4 @@
-<h2>Address Book</h2><p>
+<h2>Customer information</h2><p>
 <?php
   //This is a simple address book example for testing with RDS
 
@@ -90,7 +90,7 @@ if ( $mode=="remove")
    "<th width=100>First name</th> " .
    "<th width=100>Phone</th> " .
    "<th width=200>Email</th> " .
-   "<th width=100 colspan=3>Admin</th></tr>";
+   "<th width=100 colspan=3>Admin\Dev</th></tr>";
  Print "<td colspan=6 align=right> " .
    "<a href=" .$_SERVER['PHP_SELF']. "?mode=add>Add Contact</a></td>";
  while($info = mysqli_fetch_array( $data ))

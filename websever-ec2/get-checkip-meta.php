@@ -27,8 +27,5 @@ $public_ip = get_metadata("public-ipv4", $token);
 ?>
 
 
-<h2>Check IP Success!</h2>
-<h5>Instance is running with the following IPs:</h5>
-<h4>Private IP: <?php echo $private_ip; ?></h4>
-<h4>Public IP: <?php echo $public_ip ? $public_ip : "N/A"; ?> </h4>
+
 

@@ -14,7 +14,7 @@
       <?php include('menu.php'); ?>
       <div class="jumbotron">
 
-      <?php include('get-index-meta-data.php'); ?>
+      <?php include('get-checkip-meta.php'); ?>
 
       <hr />
 

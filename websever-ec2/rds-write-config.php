@@ -23,7 +23,7 @@
         $un = $_POST['username'];
         $pw = $_POST['password'];
 
-        $mysql_command = "mysql -u $un -p$pw -h $ep $db < sql/addressbook.sql";
+        $mysql_command = "mysql -u $un -p$pw -h $ep $db < sql/customer-information-uitiot.sql";
 
         $connect = mysqli_connect($ep, $un, $pw);
         if(!$connect) {
